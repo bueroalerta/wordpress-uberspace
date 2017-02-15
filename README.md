@@ -1,5 +1,8 @@
 # Wordpress project layout
 
+[![Build Status](https://travis-ci.org/musikcorps/wordpress-uberspace.svg?branch=master)](https://travis-ci.org/musikcorps/wordpress-uberspace)
+
+
 ## Inspired by:
  * [roots/bedrock](https://github.com/roots/bedrock)
  * [johnpbloch/wordpress](https://github.com/johnpbloch/wordpress)
