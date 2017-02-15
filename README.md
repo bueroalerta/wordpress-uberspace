@@ -32,10 +32,16 @@ The container models some aspects (directory structure) of Uberspace hosts and e
 
 ## Deployment on uberspace.de hosts
 
+You will need `composer`, which has to be installed on your uberspace:
+
+```
+curl -sS https://getcomposer.org/installer | php -- --filename=composer --install-dir=$HOME/bin
+```
+
 Clone the repository to a new folder within `/var/www/virtual/$USER`:
 
 ```
-cd ~/html/..
+cd $(readlink html)/..
 git clone https://github.com/musikcorps/wordpress
 cd wordpress
 ```
@@ -52,6 +58,8 @@ Now create a suitable config file:
 cp config/env.example config/production.env
 ln -s config/production.env .env
 ```
+
+Adjust the configuration settings to suitable values.
 
 Install dependencies and setup Wordpress:
 
