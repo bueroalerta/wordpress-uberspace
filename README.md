@@ -1,6 +1,7 @@
 # Wordpress project layout
 
 [![Build Status](https://travis-ci.org/musikcorps/wordpress-uberspace.svg?branch=master)](https://travis-ci.org/musikcorps/wordpress-uberspace)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 
 ## Inspired by:
